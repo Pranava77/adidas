@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #5C8374;
+    position: relative;
+}
+
+#nav{
+    display: flex;
+    height: 90px;
+    padding: 22px 0px;
+    width:  100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 30px;
+    margin-right: 335px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-part1 h4{
+    margin-right: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+
+#nav-part2 i{
+    margin-right: 30px;
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 90px);
+    background-color: #5C8374;
+    position: relative;
+    display: flex;
+}
+
+#left{
+    width: 35%;
+    height: 100%;
+    padding: 220px 120px ;
+}
+
+
+
+#left h5{
+    font-size: 20px;
+    margin-bottom: 22px;
+    width: 120%;
+}
+
+#left h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+
+}
+
+#left p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 90%;
+    margin-bottom: 30px;
+
+}
+
+#left button{
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 18px 48px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+}
+
+
+#right{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    /* background-color: red; */
+    padding: 150px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.elem{
+    height: 500px;  
+    width: 380px;   
+    background-color: #111;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.3);
+    display: inline-block;  
+  margin: 10px;
+}
+
+.elem img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 10%;
+}
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #5C8374;
+    padding: 17px 34px;
+    border-radius: 3px;
+}
+
+.elem h5{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    background-color: #040D12;
+    padding: 12px 20px;
+    border-radius: 6px;
+    color: #93B1A6;
+}
+
+#right::-webkit-scrollbar{
+    display: none;
+}
